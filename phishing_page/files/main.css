@@ -1,0 +1,99 @@
+@CHARSET "UTF-8";
+
+html		{ font-family: 'Nanum Gothic', sans-serif; }
+body		{ width: 100%; margin: 0; padding: 0; color: #454545; font-size: 16px; font-weight: 300; line-height: 1; overflow: scroll; }
+a			{ margin: 0; padding: 0; text-decoration: none; color: #505050; font-size: 100%; vertical-align: baseline; background: transparent; }
+a:hover		{ text-decoration: none; color: #1f65c3; }
+
+table						{ border-collapse: collapse; border-spacing: 0; }
+hr							{ display: block; height: 1px; border: 0; border-top: 1px solid #cccccc; margin: 1em 0; padding: 0; }
+input						{ vertical-align: middle; }
+select						{ vertical-align: middle; margin-top: -5px; }
+
+div, dl, span					{ margin: 0; padding: 0; border: 0; }
+em								{ list-style: none; margin: 0; padding: 0; font-size: 12px; font-style: normal; font-weight: bold; }
+ul, li, ol, dl, dt, dd, p, em	{ list-style: none; margin: 0; padding: 0; }
+form							{ margin: 0; padding: 0; border: 0; }
+button							{ border: 0; padding: 0; background: transparent; cursor: pointer; overflow: visible; }
+label							{ cursor: pointer; }
+hr, h1, h2, caption				{ overflow: hidden; visibility: hidden; font-size: 0; width: 0; height: 0; margin: 0; padding: 0; position: absolute; }
+img							{ border: 0; vertical-align: middle; }
+
+
+#container		{ width: 100%; margin: 0 auto; min-height: 700px;}
+
+
+#section1				{ float: left; width: 66%; min-height: 700px; text-align: center; background-size: cover;
+							-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; }
+
+.logoImg				{ z-index: 1000; text-align: left; padding: 20px 0 0 20px; }
+.Mainbg					{ position: absolute; left: 0; top: 0; width: 100%; z-index: -1;  }
+.Mainbg #spot_image1		{ position: absolute; left: 0; top: 0; min-height: 700px; width: 66%; height: 100%; background: url(img/main_bgTop01.jpg) center bottom no-repeat; }
+.Mainbg #spot_image2		{ position: absolute; left: 0; top: 0; min-height: 700px; width: 66%; height: 100%; background: url(img/main_bgTop02.jpg) center bottom no-repeat; }
+.Mainbg #spot_image3		{ position: absolute; left: 0; top: 0; min-height: 700px; width: 66%; height: 100%; background: url(img/main_bgTop03.jpg) center top no-repeat; }
+
+
+#section2				{ float: left; width: 34%; min-height: 700px; text-align: left; }
+
+.loginSlogan				{ width: 500px; margin: 20px 0 20px 20px; font-size: 22px; color:#1F4787; font-weight: bold; }
+.loginText					{ font-size: 13px; margin: 10px 0; }
+.loginInput input			{ position: relative; width:310px; height:20px; font-size:14px; margin:0 0 10px; padding:10px 35px 10px 15px;
+								border:1px solid #dadada; background:#fff; border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px; }
+.loginBtn					{ position: relative; font-size: 16px; background-color: #1F4787; width: 100px; height: 95px; color: white; border: none;
+								margin-right: 27px; border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px; }
+.loginSaveTxt				{ color:#888; font-size:13px; }
+
+.loginbox					{ width: 500px; margin: 20px 0 20px 20px; }
+.loginbox dl dt				{ font-size: 25px; color:#000; font-weight: 800; padding-bottom: 25px; }
+.loginbox dl dd				{ padding-left: 12px; line-height: 1.7; background: url(./img/notice_dot.png) left 10px no-repeat; }
+.loginbox dl dd a			{ color: #6F7478;}
+.loginbox dl dd a:hover		{ color: #1a96d6; }
+.loginbox dl dd span		{ float: right; color: #646466; font-weight: normal; letter-spacing: -1px; font-size: 12px; line-height: 1.8; }
+.loginbox .more a			{ position: absolute; right: 0; top: 0; color: #d7d7d7; font-size: 25px; font-weight: 800; }
+.loginbox .more a:hover		{ color: #15b8e1; }
+
+.loginMove					{ font-size: 13px; margin: 25px 0; text-align: center; width: 460px; }
+.loginMove a  				{ background-color:#eee; text-align:center; width: 200px; padding: 10px 20px;
+								border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px; }
+
+.khubbanner					{ width: 500px; padding: 20px 0; margin: 20px 0 20px 20px; border-top: 1px solid #ececec; }
+.khubbanner	div				{ font-size: 18px; color:#5e5e5e; font-weight: 600; padding: 0 0 15px 10px; }
+.khubbanner a 				{ width: 120px; height: 50px; float: left; vertical-align: top; }
+.khubbanner a div			{ height: 25px; padding: 3px 0 0 50px; font-size: 13px; letter-spacing: -1px; line-height: 150%; font-weight: normal; }
+
+.khubbanner2				{ width: 500px; padding: 20px 0 15px 0; height: 30px; margin: 20px; border-top: 1px solid #ececec; border-bottom: 1px solid #ececec; }
+.khubbanner2 a  			{ float: left; font-size: 15px; margin-left: 10px; vertical-align: middle; }
+.khubbanner2 a img 			{ width: 25px; margin-right: 7px; vertical-align: middle; padding-bottom:5px; }
+.khubbanner2_select			{ float: left; letter-spacing: -1px; }
+.khubbanner2_select a		{ padding: 2px 15px 2px 0; margin-top: -2px; }
+
+.notice					{ width: 500px; margin: 20px 0 20px 20px; }
+.notice dl dt			{ font-size: 18px; color:#5e5e5e; font-weight: 600; padding: 0 0 15px 10px; }
+.notice dl dd			{ font-size: 14px; padding-left: 12px; line-height: 1.7; }
+.notice dl dd a			{ color: #6F7478; }
+.notice dl dd a:hover	{ color: #1a96d6; }
+.notice dl dd span		{ color: #646466; font-weight: normal; font-size: 14px; line-height: 1.8; }
+.noticeDate				{ float: right; margin-right: 29px; }
+.notice .more a			{ color: #b5b3b3; font-size: 25px; font-weight: bold; padding-left: 327px; font-size: 15px; }
+.notice .more a:hover	{ color: #15b8e1; }
+
+
+#footer										{ width: 100%; padding: 0; min-height: 150px; height: 100%; background-color: #424854;
+												text-align: left; }
+#footer .copybox							{ text-align: left; padding-left: 20px; }
+#footer .copybox .bottommenu				{ margin-top: 0; padding: 23px 0 5px 13px; border-bottom: 0; }
+#footer .copybox .bottommenu span a			{ color: white; font-size: 13px; font-weight: normal; background-color: #424854; margin: 0 -1px 0 -1px;
+												padding: 4px 8px; border-radius: 3px;  }
+#footer .copybox .bottombox 				{ width: 100%; font-size: 13px; margin-top: 12px; line-height: 150%; padding-left: 20px; }
+#footer .copybox .bottombox address			{ color: #cecece; font-style: normal; }
+#footer .copybox .bottombox p				{ font-size: 12px; line-height: 150%; margin-top: 12px; color: #89898a; font-style: initial; }
+#footer .copybox .bottomlogo				{ float: right; margin-top: -80px; opacity: 0.5; }
+
+
+@media screen and (max-width: 555px)
+	#footer									{ min-height: 180px; }
+	#footer .copybox .bottomlogo			{ float: left; margin: 20px; }
+}
+
+/* 스마트폰 가로 세로 글씨(폰트) 크기 바뀌지 않게 */
+* { -webkit-text-size-adjust: none; }
