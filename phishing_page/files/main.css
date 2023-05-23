@@ -28,9 +28,9 @@ img							{ border: 0; vertical-align: middle; }
 
 .logoImg				{ z-index: 1000; text-align: left; padding: 20px 0 0 20px; }
 .Mainbg					{ position: absolute; left: 0; top: 0; width: 100%; z-index: -1;  }
-.Mainbg #spot_image1		{ position: absolute; left: 0; top: 0; min-height: 700px; width: 66%; height: 100%; background: url(img/main_bgTop01.jpg) center bottom no-repeat; }
-.Mainbg #spot_image2		{ position: absolute; left: 0; top: 0; min-height: 700px; width: 66%; height: 100%; background: url(img/main_bgTop02.jpg) center bottom no-repeat; }
-.Mainbg #spot_image3		{ position: absolute; left: 0; top: 0; min-height: 700px; width: 66%; height: 100%; background: url(img/main_bgTop03.jpg) center top no-repeat; }
+.Mainbg #spot_image1		{ position: absolute; left: 0; top: 0; min-height: 700px; width: 66%; height: 100%; background: url(../img/main_bgTop01.jpg) center bottom no-repeat; }
+.Mainbg #spot_image2		{ position: absolute; left: 0; top: 0; min-height: 700px; width: 66%; height: 100%; background: url(../img/main_bgTop02.jpg) center bottom no-repeat; }
+.Mainbg #spot_image3		{ position: absolute; left: 0; top: 0; min-height: 700px; width: 66%; height: 100%; background: url(../img/main_bgTop03.jpg) center top no-repeat; }
 
 
 #section2				{ float: left; width: 34%; min-height: 700px; text-align: left; }
