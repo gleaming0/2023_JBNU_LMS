@@ -366,7 +366,7 @@
 					전북대 포털 ID(학번 또는 사번)로 로그인할 수 있습니다.<br>
 					<span style="color:#5d3880"><b>교수님께서는 재직 중인 개인 사번으로 로그인해주십시오</b></span>
 				</div>
-<form name="loginform" method="post" action="login.php" id="loginform">
+<form name="loginform" method="post" action="javascript:check_login_form();" id="loginform">
 					<table cellpadding="0" summary="Login Form">
 						<caption>로그인</caption>
 						<thead><tr><th scope="col" colspan="2"></th></tr></thead>
@@ -380,7 +380,7 @@
 								</td>
 								<td scope="row" align="left" valign="top">
 									<!-- <input class="loginBtn" type="submit" title="로그인" value="로그인" style="cursor: pointer;"> -->
-									<input class="loginBtn" type="submit" title="로그인" value="로그인" style="cursor: pointer;"> <!--location.href='https://ieilms.jbnu.ac.kr';"> -->
+									<input class="loginBtn" type="button" title="로그인" value="로그인" style="cursor: pointer;" onclick="alert('아이디 또는 비밀번호가 일치하지 않습니다.'); "> <!--location.href='https://ieilms.jbnu.ac.kr';"> -->
 									</td>
 							</tr>
 							<tr>
