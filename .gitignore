@@ -1,2 +1,4 @@
+/injection_code/dic/
+
 # Injection 결과 저장되는 디렉토리 내 모든 파일 무시
 /injection_code/output/
