@@ -28,7 +28,7 @@ login_headers = {
                 'Accept-Language':'en-US,en;q=0.9'
                 }
 
-r = requests.post(login, headers=login_headers, data = {'login':'202012178', 'passwd':'jbektha123##'})
+r = requests.post(login, headers=login_headers, data = {'login':'~id~', 'passwd':'~passwd~'})
 
 print(r.status_code)
 print(r.text+"\n")
